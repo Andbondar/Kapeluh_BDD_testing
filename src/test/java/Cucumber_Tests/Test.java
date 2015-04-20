@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features={"src/test/resources"},
         glue = {"Cucumber_Tests"},
         format = {"pretty", "html:target/cucumberHTMLReport"},
-        tags = { "@Test_002" }
+        tags = { "@Test" }
 )
 
 public class Test extends PageInstance{

@@ -38,7 +38,7 @@ public class DamskieShlyapki {
 
     public void checkCurrentPageIs_DamskieShlyapki(){
         String currentUrl = driver.getCurrentUrl();
-        boolean flag = currentUrl.matches("[Kk]apeluh.*[Dd]amskie.?[Ss]hlyapki.*");
+        boolean flag = currentUrl.matches(".*damskie.?shlyapki.*");//temp
         assertTrue("Current window is not 'Damskie Shlyapki'", flag);
     }
 

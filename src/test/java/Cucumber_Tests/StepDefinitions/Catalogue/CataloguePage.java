@@ -24,7 +24,7 @@ public class CataloguePage extends PageInstance{
     @When("^I click link number \"([^\"]*)\"$")
     public void I_click_link_number(String input) {
         int linkNumber = Integer.parseInt(input);
-        cataloguePage.openDamskieShlyapkiFromLeftPanelByNumber(linkNumber);
+        damskieShlyapki = cataloguePage.openDamskieShlyapkiFromLeftPanelByNumber(linkNumber);
     }
 
     @When("^I open DamskieShlyapki page$")
