@@ -15,10 +15,10 @@ import org.junit.runner.RunWith;
         features={"src/test/resources"},
         glue = {"Cucumber_Tests"},
         format = {"pretty", "html:target/cucumberHTMLReport"},
-        tags = { "@Test" }
+        tags = { "@Test_002" }
 )
 
-public class Test_001 extends PageInstance{
+public class Test extends PageInstance{
 
     @BeforeClass
     public static void setUp(){
